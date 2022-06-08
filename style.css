@@ -1,0 +1,171 @@
+:root {
+    --first-color: #2196F3;
+    --second-color: #212121;
+    --third-color: #757575;
+    --fourth-color: #ffffff;
+    --fifth-color: #2F303A;
+    --sixth-color: #F5F4FA;
+    --seventh-color: #000000;
+}
+
+.logo {
+    color: var(--seventh-color);
+    text-decoration: none;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Roboto';
+}
+
+.logo-span {
+    color: var(--first-color);
+    text-decoration: none;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Roboto';
+}
+
+.nav {
+    color: var(--second-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Roboto';
+}
+
+.nav:hover {
+    color: var(--first-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Roboto';
+}
+
+.contakts {
+    color: var(--third-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Roboto';
+}
+
+.contakts:hover {
+    color: var(--first-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Roboto';
+}
+
+.hero {
+    background-color: var(--fifth-color);
+}
+
+.big-title {
+    color: var(--fourth-color);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    font-style: normal;
+    font-family: 'Roboto';
+}
+
+.button {
+    color: var(--first-color);
+    text-align: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.mini-title {
+    color: var(--second-color);
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Roboto';
+}
+
+.text {
+    color: var(--third-color);
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Roboto';
+}
+
+.foot {
+    background-color: var(--fifth-color);
+}
+
+.logo2 {
+    color: var(--fourth-color);
+    text-decoration: none;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Roboto';
+}
+
+.logo2-span {
+    color: var(--first-color);
+    text-decoration: none;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Roboto';
+}
+
+.adress {
+    color: var(--fourth-color);
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Roboto';
+}
+
+.nav2 {
+    color: var(--second-color);
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Roboto';
+}
+
+.nav2:hover {
+    color: var(--first-color);
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Roboto';}
+.all{
+    display: inline-block;
+    border-radius: 4px;
+    width: 73px;
+    height: 38px;
+}
+.web{
+   display: inline-block;
+   border-radius: 4px;
+   width: 128px;
+   height: 38px;
+}
+.zas{
+   display: inline-block; 
+   border-radius: 4px;
+width: 145px;
+    height: 38px;
+}
+.designer{
+   display: inline-block;
+   border-radius: 4px;
+width: 103px;
+    height: 38px;
+}
+.mark{
+  display: inline-block;
+  border-radius: 4px;
+width: 130px;
+    height: 38px;
+}
+.navig{
+    list-style: none;
+    display: flex;
+}
+.navi{
+    list-style: none;
+}
