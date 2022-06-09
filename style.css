@@ -117,8 +117,8 @@
     font-style: normal;
     font-family: 'Roboto';
     font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 .cont:hover{
     color: var(--first-color);
@@ -127,8 +127,8 @@
     font-style: normal;
     font-family: 'Roboto';
     font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 .contakts:hover {
     color: var(--first-color);
@@ -137,8 +137,8 @@
     font-style: normal;
     font-family: 'Roboto';
     font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 .hero {
@@ -227,6 +227,7 @@
     padding-left: 200px;
     padding-right: 200px;
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .logo2 {
@@ -261,6 +262,7 @@
 }
 
 .nav2-a {
+    text-align: center;
     color: var(--second-color);
     text-decoration: none;
     font-weight: 400;
@@ -271,6 +273,10 @@
     width: 73px;
     height: 38px;
     margin-top: 94px;
+    background-color: var(--sixth-color);
+    margin-right: 8px;
+    justify-content: center;
+    
 }
 .nav2-b{
     color: var(--second-color);
@@ -283,6 +289,11 @@
     width: 128px;
     height: 38px;
     margin-top: 94px;
+    background-color: var(--sixth-color);
+    text-align: center;
+    margin-right: 8px;
+    justify-content: center;
+    
 }
 .nav2-c{
     color: var(--second-color);
@@ -295,6 +306,11 @@
     width: 145px;
     height: 38px;
     margin-top: 94px;
+    background-color: var(--sixth-color);
+    text-align: center;
+    margin-right: 8px;
+    justify-content: center;
+    
 }
 .nav2-d{
     color: var(--second-color);
@@ -307,6 +323,11 @@
     width: 103px;
     height: 38px;
     margin-top: 94px;
+    background-color: var(--sixth-color);
+    text-align: center;
+    margin-right: 8px;
+    justify-content: center;
+    
 }
 
 .nav2-e{
@@ -320,43 +341,57 @@
     width: 130px;
     height: 38px;
     margin-top: 94px;
+    background-color: var(--sixth-color);
+    text-align: center;
+    justify-content: center;
+    
 }
 
 .nav2-a:hover{
-    color: var(--first-color);
+    color: var(--fourth-color);
     text-decoration: none;
     font-weight: 400;
     font-style: normal;
     font-family: 'Roboto';
+    background-color: var(--first-color);
+    text-align: center;
 }
 
 .nav2-b:hover{
-    color: var(--first-color);
+    color: var(--fourth-color);
     text-decoration: none;
     font-weight: 400;
     font-style: normal;
     font-family: 'Roboto';
+    background-color: var(--first-color);
+    text-align: center;
 }
 .nav2-c:hover{
-    color: var(--first-color);
+    color: var(--fourth-color);
     text-decoration: none;
     font-weight: 400;
     font-style: normal;
     font-family: 'Roboto';
+    background-color: var(--first-color);
+    text-align: center;
 }
 .nav2-d:hover{
-    color: var(--first-color);
+    color: var(--fourth-color);
     text-decoration: none;
     font-weight: 400;
     font-style: normal;
     font-family: 'Roboto';
+    background-color: var(--first-color);
+    text-align: center;
 }
 .nav2-e:hover{
-    color: var(--first-color);
+    color: var(--fourth-color);
     text-decoration: none;
     font-weight: 400;
     font-style: normal;
     font-family: 'Roboto';
+    background-color: var(--first-color);
+    text-align: center;
 }
 .container{
     max-width: 1200px;
@@ -378,9 +413,17 @@
     height: 294px;
 }
 .img2{
-    margin-right: 30px;
+    display: flex;
     width: 270px;
-    height: 260px;
+    justify-content: space-between;
+}
+.team{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.team:not(:last-child){
+    margin-right: 30px;
 }
 .img3{
     width: 370px;
