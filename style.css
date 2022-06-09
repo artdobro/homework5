@@ -275,8 +275,6 @@
     margin-top: 94px;
     background-color: var(--sixth-color);
     margin-right: 8px;
-    justify-content: center;
-    
 }
 .nav2-b{
     color: var(--second-color);
@@ -292,7 +290,6 @@
     background-color: var(--sixth-color);
     text-align: center;
     margin-right: 8px;
-    justify-content: center;
     
 }
 .nav2-c{
@@ -309,8 +306,6 @@
     background-color: var(--sixth-color);
     text-align: center;
     margin-right: 8px;
-    justify-content: center;
-    
 }
 .nav2-d{
     color: var(--second-color);
@@ -325,9 +320,7 @@
     margin-top: 94px;
     background-color: var(--sixth-color);
     text-align: center;
-    margin-right: 8px;
-    justify-content: center;
-    
+    margin-right: 8px;   
 }
 
 .nav2-e{
@@ -343,8 +336,6 @@
     margin-top: 94px;
     background-color: var(--sixth-color);
     text-align: center;
-    justify-content: center;
-    
 }
 
 .nav2-a:hover{
